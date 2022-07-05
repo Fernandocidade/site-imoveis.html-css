@@ -1,0 +1,127 @@
+@charset "UTF-8"; 
+
+@import url('https://fonts.googleapis.com/css2?family=bebas+Neue&display=swap');
+
+:root {
+
+    --cor0:#E4F2E7;
+    --cor1:#97A6A0;
+    --cor2:#93BFB7; 
+    --cor3:#387373;
+    --cor4:#2D3E40;
+
+    --fonte-padrao:arial, verdana, helvetica,sans-serif;
+    --fonte-destaque:'bebas Neue' , cursive;
+    --fonte-android:'Android', cursive;
+
+
+} 
+
+body {
+    background-color: var(--cor2);
+    font-family: var(--fonte-padrao);
+}  
+
+header >h1 {
+    color: black;
+    font-family: var(--fonte-destaque);
+    margin-bottom: 20px;
+    font-size: 3em;
+    text-align: center;
+    text-shadow: 2px 2px 0px black;
+} 
+
+header > p {
+    color: black;
+    font-family: var(--fonte-padrao);
+    font-size: 1.2em;
+    max-width: 600px;
+    padding-right: 10px;
+    padding-left:10px;
+    margin: auto;
+    text-shadow: 1px 1px 0px BLACK;
+    text-align: center;
+} 
+
+nav { 
+    text-align: center;
+    background-color: var(--cor3);
+    padding: 10px; 
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.364);
+} 
+
+nav > a {
+    color: var(--cor0);
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: .5s;
+} 
+
+nav > a:hover {
+    background-color: var(--cor2);
+    color: var(--cor3);
+} 
+
+main {
+    min-width: 300px;
+    max-width:1000px;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: 30px; 
+    box-shadow: 0px 0px 10px black; 
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+} 
+
+main h1 {
+    color: var(--cor4);
+    font-family: var(--fonte-android);
+    font-weight: normal;
+    font-size: 1.8em;
+} 
+
+main h2 {
+    color: var(--cor4);
+    font-family: var(--fonte-android);
+    font-size: 1.3em;
+    text-indent: 8px; 
+    background-image: linear-gradient( to right, var(--cor1)
+    transparent); 
+
+} 
+
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    font-size: 1em;
+    line-height: 2em;
+
+} 
+
+main strong {
+    color: var(--cor4);
+    font-weight: bold;
+    background-color: var(--cor1);
+    padding: 2px 6px;
+} 
+
+main a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: var(--cor4);
+    background-color: var(--cor4);
+    padding: 2px 6px;
+
+} 
+
+main a:hover {
+    text-decoration: underline;
+    color: var(--cor4);
+}
+
+main img {
+    width: 100%;
+}
